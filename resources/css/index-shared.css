@@ -134,8 +134,15 @@ hr::after {
 }
 
 #img__linkedin {
+  background-image: url("../images/linked-in.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 70%;
+
   height: 3vh;
-  padding-bottom: 1vh;
+  width: 3vh;
+
   filter: invert(1);
 }
 

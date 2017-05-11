@@ -1,0 +1,46 @@
+
+/*Images*/
+
+.img__pak {
+  height: 99px;
+  max-width: 100%;
+}
+
+#img__pak-man:hover {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+#img__pak-ghost:hover {
+  /*content:url("./resources/images/blue-pak-ghost.png")*/
+
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+#img__pakky-bird:hover {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+/*Miscelllaneous*/
+
+.div--circle {
+  border-radius: 50%;
+  height: 20vh;
+  width: 20vh;
+
+  margin: 1vh auto;
+}

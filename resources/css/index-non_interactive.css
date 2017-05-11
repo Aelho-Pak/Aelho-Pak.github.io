@@ -1,0 +1,319 @@
+
+/* About Me Section */
+
+.about__top {
+  height: 60vh;
+  background-color: #4c0000;
+}
+
+.about__top__desc {
+  width: 77%;
+
+  text-align: center;
+  font-size: 2.25vh;
+  letter-spacing: 1px;
+  line-height: 4vh;
+  color: #cccccc;
+}
+
+.about__bot {
+  height: 40vh;
+  width: 85%;
+
+  justify-content: space-between;
+  font-size: 2.25vh;
+  text-align: center;
+}
+
+.about__bot__icons {
+  height: 50%;
+  width: 17%;
+}
+
+.icon {
+  height: 4.5vh;
+}
+
+.icon--margin_top {
+  margin-top: 1vh;
+}
+
+.icon--margin_bot {
+  margin-bottom: 2vh;
+}
+
+
+
+/* Projects & Experiences Section */
+
+.projects {
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #EDE5E5;
+}
+
+.experiences {
+  justify-content: space-around;
+}
+
+.section--large_third {
+  height: 20em;
+  width: 20em;
+}
+
+.section--large_third:hover {
+  background-color: rgba(78, 0, 0, .5);
+  background-blend-mode: multiply;
+}
+
+.section--small_third {
+  height: 45%;
+  width: 25%;
+
+  align-items: center;
+  text-align: center;
+
+  font-size: 2.25vh;
+}
+
+.section--header {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+  font-size: 5vh;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.section--footer {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+  font-size: 2vh;
+  letter-spacing: 1px;
+  color: #4c0000;
+  font-weight: bold;
+}
+
+.section--button {
+  padding: 2em;
+  border: 2px solid #4c0000;
+  cursor: pointer;
+}
+
+.section--button:hover {
+  background-color: #4c0000;
+  color: #EDE5E5;
+}
+
+.exp--desc {
+  width: 105%;
+  padding-top: 3vh;
+  line-height: 4vh;
+}
+
+.picture {
+  height: 11vh;
+}
+
+
+
+/* Div Overview */
+
+.div__overview {
+  display: none;
+  text-align: center;
+}
+
+.section--large_third:hover > .div__overview {
+  display: block;
+}
+
+.overview--button {
+  width: 7vw;
+
+  margin: 0 auto;
+  margin-top: 2.5vh;
+  padding: 1.5em 1em;
+
+  border: 2px solid white;
+  font-size: 1.5vh;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.overview--button:hover {
+  background-color: white;
+  color: #4c0000;
+}
+
+.overview--title {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+.overview--desc {
+  font-size: .9em;
+  font-style: italic;
+}
+
+
+
+/* Div Modal */
+
+.info__detail {
+  width: 93%;
+  font-size: 2vh;
+  line-height: 3.5vh;
+  letter-spacing: 1px;
+}
+
+.info__skills {
+  width: 70%;
+  font-size: 2.25vh;
+}
+
+.info--title {
+  width: 100%;
+
+  font-size: 5vh;
+  font-weight: bold;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.info--box {
+  width: fit-content;
+  padding: .5em;
+  border-radius: 3px;
+}
+
+.info__pakky-bird {
+  height: 45%;
+  background-color: black;
+  color: #e6c900;
+}
+
+.box--yellow {
+  border: 1px solid #e6c900;
+}
+
+.info__around-our-world {
+  height: 45%;
+  color:  #68B3AF;
+}
+
+.box--blue {
+  border: 1px solid #68B3AF;
+}
+
+.info__pabang--title {
+  width: 100%;
+
+  position: absolute;
+  top: 13%;
+  left: 72%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+  font-size: 7vh;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.info__pabang {
+  height: 45%;
+  background-color: #2a2a2a;
+}
+
+.box--white {
+  border: 1px solid white;
+}
+
+
+
+/* Images */
+
+.splash_image {
+  height: 55%;
+}
+
+.preview--around-our-world {
+  background: url("http://res.cloudinary.com/aelho-pak/image/upload/v1494379954/Project/around_our_world.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 45% 0%;
+}
+
+.preview--pakky-bird {
+  background: url("http://res.cloudinary.com/aelho-pak/image/upload/v1494379955/Project/pakky_bird.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% 45%;
+}
+
+.preview--pabang {
+  background: url("http://res.cloudinary.com/aelho-pak/image/upload/v1494379925/Project/pabang.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 110%;
+}
+
+.splash--around-our-world {
+  background: url("http://res.cloudinary.com/aelho-pak/image/upload/v1494379954/Project/around_our_world.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 80%;
+  background-position: 50% 5%;
+}
+
+.splash--pakky-bird {
+  background: url("http://res.cloudinary.com/aelho-pak/image/upload/v1494379955/Project/pakky_bird.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 180%;
+  background-position: 50% 49%;
+}
+
+.splash--pabang {
+  background: url("http://res.cloudinary.com/aelho-pak/image/upload/v1494379925/Project/pabang.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 102%;
+}
+
+
+
+/* The Modal */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,.7); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: white;
+    height: 90vh;
+    width: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+}

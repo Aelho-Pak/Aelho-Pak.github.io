@@ -1,0 +1,209 @@
+
+/* Testing */
+
+/*section {
+  border: 1px solid black;
+}
+
+div {
+  border: 1px solid red;
+}
+
+img {
+  border: 1px solid blue;
+}*/
+
+
+
+/* General */
+
+.flex--center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex--space_around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex--column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex--row {
+  display: flex;
+  flex-direction: row;
+}
+
+.div--margin_top {
+  margin-top: 2vh;
+}
+
+.div--margin_bottom {
+  margin-bottom: 4vh;
+}
+
+.div--margin_left {
+  margin-left: 11vh;
+}
+
+.div--margin_right {
+  margin-right: 11vh;
+}
+
+.color--maroon {
+  color: #4c0000;
+}
+
+.color--blue {
+  color: #68B3AF;
+}
+
+.color--yellow {
+  color: #e6c900;
+}
+
+.color--white {
+  color: white;
+}
+
+.text--bold {
+  font-weight: bold;
+}
+
+section {
+  height: 100vh;
+  position: relative;
+  cursor: default;
+}
+
+hr {
+  height: .75em;
+  width: auto;
+
+  position: relative;
+  display: inline-block;
+
+  margin: 0;
+  padding: 0 40px 0 40px;
+
+  border: none;
+}
+
+hr::after {
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  top: 50%;
+
+  border-bottom: solid 2px #fff;
+  content: '';
+}
+
+.hr--spacing {
+  height: .75em;
+}
+
+.hr--black::after {
+  border-bottom: solid 2px black;
+}
+
+.hr--maroon::after {
+  border-bottom: solid 2px #4c0000;
+}
+
+
+
+/* Front and Contact Section */
+
+.links {
+  width: 50%;
+  margin: 2vh 0;
+
+  justify-content: space-between;
+}
+
+.logo {
+  height: 2.5vh;
+  padding: 5px;
+}
+
+#img__angellist {
+  height: 3.75vh;
+  padding: 0px;
+}
+
+
+
+/* Front Section */
+
+.splash {
+  background: url("http://res.cloudinary.com/aelho-pak/image/upload/v1494466985/Project/portfolio.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 200%;
+  background-position: 38% 20%;
+}
+
+.splash__top {
+  font-size: 4vh;
+  font-style: italic;
+}
+
+.splash__mid {
+  font-size: 9vh;
+  letter-spacing: -3px;
+}
+
+.splash__bot {
+  width: 85%;
+  justify-content: space-around;
+}
+
+
+
+/* Contact Section */
+
+.contact__top {
+  height: 70vh;
+  font-size: 2.5vh;
+  background-color: #EDE5E5;
+}
+
+.contact__top__icons {
+  width: 40%;
+  justify-content: space-between;
+}
+
+.contact__bot {
+  height: 30vh;
+  background-color: #4c0000;
+}
+
+.contact__bot__desc {
+  width: 33%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon--circle {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 50%;
+
+  border: 2px solid black;
+}
+
+.icon--invert {
+  filter: invert(1);
+}
+
+.icon--desc {
+  position: absolute;
+  margin-top: 8vh;
+}

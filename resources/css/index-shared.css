@@ -133,6 +133,12 @@ hr::after {
   padding: 5px;
 }
 
+#img__linkedin {
+  height: 3vh;
+  padding-bottom: 1vh;
+  filter: invert(1);
+}
+
 #img__angellist {
   height: 3.75vh;
   padding: 0px;

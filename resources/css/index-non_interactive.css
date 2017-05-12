@@ -7,18 +7,17 @@
 }
 
 .about__top__desc {
-  width: 77%;
+  width: 80%;
 
   text-align: center;
   font-size: 2.25vh;
   letter-spacing: 1px;
   line-height: 4vh;
-  color: #cccccc;
 }
 
 .about__bot {
   height: 40vh;
-  width: 85%;
+  width: 93%;
 
   justify-content: space-between;
   font-size: 2.25vh;
@@ -27,11 +26,15 @@
 
 .about__bot__icons {
   height: 50%;
-  width: 17%;
+  width: 18.5%;
 }
 
 .icon {
   height: 4.5vh;
+}
+
+.icon__detail {
+  max-width: 13em;
 }
 
 .icon--margin_top {
@@ -47,19 +50,22 @@
 /* Projects & Experiences Section */
 
 .projects {
-  justify-content: space-around;
-  align-items: center;
-
   background-color: #EDE5E5;
 }
 
-.experiences {
-  justify-content: space-around;
+.projects__preview {
+  width: 98.5%;
+}
+
+.experiences {}
+
+.experiences__preview {
+  width: 98%;
 }
 
 .section--large_third {
-  height: 20em;
-  width: 20em;
+  height: 45vh;
+  width: 45vh;
 }
 
 .section--large_third:hover {
@@ -69,7 +75,7 @@
 
 .section--small_third {
   height: 45%;
-  width: 25%;
+  width: 33%;
 
   align-items: center;
   text-align: center;
@@ -113,8 +119,12 @@
   color: #EDE5E5;
 }
 
-.exp--desc {
-  width: 105%;
+.exp__title {
+  width: 65%;
+  max-width: 13em;
+}
+
+.exp__desc {
   padding-top: 3vh;
   line-height: 4vh;
 }
@@ -263,7 +273,7 @@
   background: url("http://res.cloudinary.com/aelho-pak/image/upload/v1494379925/Project/pabang.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 110%;
+  background-size: 120%;
 }
 
 .splash--around-our-world {

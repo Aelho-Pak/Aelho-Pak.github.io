@@ -67,6 +67,10 @@ img {
   color: #e6c900;
 }
 
+.color--grey {
+  color: #b2b2b2;
+}
+
 .color--white {
   color: white;
 }
@@ -113,6 +117,10 @@ hr::after {
   border-bottom: solid 2px black;
 }
 
+.hr--grey::after {
+  border-bottom: solid 2px #b2b2b2;
+}
+
 .hr--maroon::after {
   border-bottom: solid 2px #4c0000;
 }
@@ -134,16 +142,7 @@ hr::after {
 }
 
 #img__linkedin {
-  background-image: url("../images/linked-in.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-size: 70%;
-
-  height: 3vh;
-  width: 3vh;
-
-  filter: invert(1);
+  padding-bottom: 1vh;
 }
 
 #img__angellist {
@@ -189,7 +188,7 @@ hr::after {
 }
 
 .contact__top__icons {
-  width: 40%;
+  width: 50%;
   justify-content: space-between;
 }
 
@@ -199,7 +198,7 @@ hr::after {
 }
 
 .contact__bot__desc {
-  width: 33%;
+  width: 50%;
   justify-content: space-around;
   align-items: center;
 }

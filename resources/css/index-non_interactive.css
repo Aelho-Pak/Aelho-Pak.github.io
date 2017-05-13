@@ -335,7 +335,7 @@
  /*Media Queries */
 
 /* smartphones, portrait 480x320 */
-@media (min-width:320px) and (max-width:425px) {
+@media screen and (min-width:320px) and (max-width:425px) {
 
   .splash {
     background-size: 300%;

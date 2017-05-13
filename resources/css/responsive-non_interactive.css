@@ -150,7 +150,7 @@
 
  /* Experience Section */
  .experiences__preview {
-   height: 75%;
+   height: 70%;
    flex-direction: column-reverse;
    justify-content: space-between;
    align-items: center;

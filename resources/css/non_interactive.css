@@ -8,11 +8,13 @@
 
 .about__top__desc {
   width: 80%;
+  padding-top: 4vh;
 
   text-align: center;
   font-size: 2.25vh;
   letter-spacing: 1px;
   line-height: 4vh;
+  /*border: 1px solid blue;*/
 }
 
 .about__bot {
@@ -34,8 +36,8 @@
 }
 
 .icon__detail {
-  max-width: 12em;
-  border: 1px solid red;
+  min-height: 3em;
+  max-width: 82%;
 }
 
 .icon--margin_top {
@@ -55,13 +57,15 @@
 }
 
 .projects__preview {
-  width: 100%;
+  width: 99%;
+  padding-bottom: 7vh;
 }
 
-.experiences {}
+.experiences { }
 
 .experiences__preview {
-  width: 99%;
+  width: 97%;
+  padding-bottom: 6vh;
 }
 
 .section--large_third {
@@ -121,7 +125,6 @@
 }
 
 .exp__title {
-  width: 65%;
   max-width: 13em;
 }
 
@@ -149,14 +152,14 @@
 }
 
 .overview--button {
-  width: 7vw;
+  width: 75%;
 
   margin: 0 auto;
   margin-top: 2.5vh;
-  padding: 1.5em 1em;
+  padding: 1.5em .5em;
 
   border: 2px solid white;
-  font-size: 1.5vh;
+  font-size: 1.75vh;
   letter-spacing: 2px;
   cursor: pointer;
 }
@@ -167,13 +170,12 @@
 }
 
 .overview--title {
-  font-size: 1.3em;
+  font-size: 3.5vh;
   letter-spacing: 1px;
-  border: 1px solid red;
 }
 
 .overview--desc {
-  font-size: .9em;
+  font-size: 2.25vh;
   font-style: italic;
 }
 
@@ -262,7 +264,7 @@
   background: url("http://res.cloudinary.com/aelho-pak/image/upload/v1494379954/Project/around_our_world.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: 45% 0%;
+  background-position: 49% 1%;
 }
 
 .preview--pakky-bird {

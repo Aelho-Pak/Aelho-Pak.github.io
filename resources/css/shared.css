@@ -194,6 +194,10 @@ hr::after {
   background-color: #EDE5E5;
 }
 
+.contact__desc {
+  margin-bottom: 9vh;
+}
+
 .contact__top__icons {
   width: 50%;
   justify-content: space-between;

@@ -34,7 +34,8 @@
 }
 
 .icon__detail {
-  max-width: 13em;
+  max-width: 12em;
+  border: 1px solid red;
 }
 
 .icon--margin_top {
@@ -166,8 +167,9 @@
 }
 
 .overview--title {
-  font-size: 1.5em;
+  font-size: 1.3em;
   letter-spacing: 1px;
+  border: 1px solid red;
 }
 
 .overview--desc {
@@ -267,7 +269,8 @@
   background: url("http://res.cloudinary.com/aelho-pak/image/upload/v1494379955/Project/pakky_bird.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: 50% 45%;
+  background-size: 600%;
+  background-position: 50% 42.5%;
   background-color: black;
 }
 

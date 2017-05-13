@@ -73,9 +73,9 @@
  }
 
  .icon__detail {
-   min-height: 3em;
-   width: 96%;
+   max-height: 3em;
    font-size: 1.3vh;
+   border: 1px solid red;
  }
 
  /* Project Section */

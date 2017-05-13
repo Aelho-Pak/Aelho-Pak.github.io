@@ -1,0 +1,183 @@
+/*Media Queries */
+
+/* smartphones, portrait 480x320 */
+@media screen and (min-width:320px) and (max-width:425px) {
+
+ .splash {
+   background-size: 300%;
+   background-position: 65.5% 54%;
+   color: #4c0000;
+ }
+
+ hr {
+   display: none;
+ }
+
+ .splash__top {
+   -webkit-text-stroke: .1px white;
+ }
+
+ .splash__mid {
+   -webkit-text-stroke: .2px white;
+ }
+
+ .splash__bot {
+   width: 100%;
+ }
+
+ .section--header {
+   width: 80%;
+   top: 5%;
+ }
+
+ .about__top__desc {
+   width: 90%;
+   margin-top: 4em;
+ }
+
+ .about__bot {
+   border: 1px solid red;
+   width: 100%;
+   font-size: 1.75vh;
+ }
+
+ .icon__detail {
+   min-height: 3em;
+   font-size: 1.3vh;
+ }
+
+ .projects__preview {
+   height: 74%;
+   flex-direction: column;
+   margin-bottom: 1em;
+ }
+
+ .section--large_third {
+   height: 8em;
+   width: 8em;
+ }
+
+ .section--footer {
+   bottom: 3.5%;
+ }
+
+ .section--button {
+   width: 10em;
+   padding: 1em;
+   text-align: center;
+ }
+
+ .preview--pakky-bird {
+   background-position: 49.5% 43%;
+ }
+
+ .preview--around-our-world {
+   background-size: 130%;
+ }
+
+ .overview--desc {
+   font-size: .5em;
+ }
+
+ .overview--title {
+   font-size: 1em;
+ }
+
+ .overview--button {
+   width: 75%;
+   padding: .5em .25em;
+ }
+
+ .modal-content {
+   height: 75vh;
+   width: 45vh;
+ }
+
+ .splash--around-our-world {
+   background-position: 50% 45%;
+ }
+
+ .splash--pakky-bird {
+   background-size: 250%;
+   background-position: 50% 50%;
+ }
+
+ .splash--pabang {
+   background-size: 125%;
+   background-position: 0% 0%;
+ }
+
+ .info--title {
+   font-size: 3.5vh;
+ }
+
+ .info__detail {
+   font-size: 1.6vh;
+   line-height: 2vh;
+ }
+
+ .info__skills {
+   width: 90%;
+   font-size: 1.75vh;
+ }
+
+ .experiences__preview {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .section--small_third {
+   width: 90%;
+   margin-bottom: 4vh;
+   font-size: 1.75vh;
+ }
+
+ .picture {
+   height: 8vh;
+   margin-bottom: 1vh;
+ }
+
+ .exp__title {
+   max-width: 100%;
+ }
+
+ .exp__desc {
+   padding-top: 2vh;
+   line-height: 2vh;
+ }
+
+ .contact__desc {
+   width: 90%;
+   margin-top: 2vh;
+   text-align: center;
+ }
+
+ .contact__top__icons {
+   height: 60%;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .icon--desc {
+   margin-top: 7vh;
+ }
+
+ .contact__bot__desc {
+   width: 100%;
+ }
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width:481px)  {
+ /*html { background: orange;}*/
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px)  {
+ /*html { background: blue;}*/
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px)  {
+ /*html { background: black;}*/
+}

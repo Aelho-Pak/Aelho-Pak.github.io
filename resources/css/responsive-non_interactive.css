@@ -74,8 +74,8 @@
 
  .icon__detail {
    max-height: 3em;
+   width: 109%;
    font-size: 1.3vh;
-   border: 1px solid red;
  }
 
  /* Project Section */

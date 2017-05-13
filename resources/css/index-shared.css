@@ -141,13 +141,20 @@ hr::after {
   padding: 5px;
 }
 
-#img__linkedin {
-  padding-bottom: 1vh;
+.logo__top {
+  background-color: #2e0000;
+  border: 1px solid #b2b2b2;
+  border-radius: 50%;
+}
+
+.logo__bot {
+  background-color: #4e0000;
+  border: 1px solid #b2b2b2;
+  border-radius: 50%;
 }
 
 #img__angellist {
-  height: 3.75vh;
-  padding: 0px;
+  height: 2.75vh;
 }
 
 

@@ -7,7 +7,7 @@
   /* Splash Section */
  .splash {
    background-size: 300%;
-   background-position: 65.5% 54%;
+   background-position: 66.5% 54%;
    color: #4c0000;
  }
 
@@ -17,12 +17,12 @@
 
  .splash__top {
    margin-bottom: 1vh;
-   -webkit-text-stroke: .3px #b2b2b2;
+   -webkit-text-stroke: .75px #b2b2b2;
  }
 
  .splash__mid {
    font-size: 7vh;
-   -webkit-text-stroke: 1.5px #b2b2b2;
+   -webkit-text-stroke: 1.25px #b2b2b2;
  }
 
  .splash__bot {
@@ -31,8 +31,12 @@
 
  /* Section */
  .section--header {
-   width: 80%;
+   width: 65%;
+   max-width: 38vh;
    top: 4%;
+
+   padding-bottom: 1vh;
+   border-bottom: 2px solid #4c0000;
  }
 
   .section--footer {
@@ -51,8 +55,11 @@
  }
 
  .header--about {
-   width: 80%;
-   top: 8.5%;
+   width: 60%;
+   top: 7%;
+
+   padding-bottom: 1vh;
+   border-bottom: 2px solid white;
  }
 
  .about__top__desc {
@@ -67,14 +74,15 @@
 
  .icon__detail {
    min-height: 3em;
+   width: 96%;
    font-size: 1.3vh;
  }
 
  /* Project Section */
  .projects__preview {
-   height: 74%;
+   height: 75%;
    flex-direction: column;
-   margin-bottom: 1em;
+   margin-bottom: .5em;
  }
 
  .section--large_third {
@@ -131,6 +139,10 @@
    line-height: 2vh;
  }
 
+ .icon--infinitedge {
+   max-width: 80%;
+ }
+
  .info__skills {
    width: 90%;
    font-size: 1.75vh;
@@ -139,7 +151,7 @@
  /* Experience Section */
  .experiences__preview {
    height: 75%;
-   flex-direction: column;
+   flex-direction: column-reverse;
    justify-content: space-between;
    align-items: center;
 
@@ -181,7 +193,8 @@
 
  .contact__desc {
    width: 90%;
-   margin-top: 2vh;
+   margin-top: 6vh;
+   margin-bottom: 2.5vh;
    text-align: center;
  }
 
@@ -189,6 +202,7 @@
    height: 60%;
    flex-direction: column;
    align-items: center;
+   margin-bottom: 1vh;
  }
 
  .icon--desc {

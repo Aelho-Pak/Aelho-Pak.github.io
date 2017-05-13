@@ -16,15 +16,17 @@
  }
 
  .splash__top {
-   -webkit-text-stroke: .1px white;
+   margin-bottom: 1vh;
+   -webkit-text-stroke: .3px #b2b2b2;
  }
 
  .splash__mid {
-   -webkit-text-stroke: .2px white;
+   font-size: 7vh;
+   -webkit-text-stroke: 1.5px #b2b2b2;
  }
 
  .splash__bot {
-   width: 100%;
+   width: 125%;
  }
 
  /* Section */

@@ -6,8 +6,8 @@
 
   /* Splash Section */
  .splash {
-   background-size: 300%;
-   background-position: 66.5% 54%;
+   background-size: 350%;
+   background-position: 65.5% 54%;
    color: #4c0000;
  }
 
@@ -17,12 +17,12 @@
 
  .splash__top {
    margin-bottom: 1vh;
-   -webkit-text-stroke: .75px #b2b2b2;
+   -webkit-text-stroke: .5px #b2b2b2;
  }
 
  .splash__mid {
    font-size: 7vh;
-   -webkit-text-stroke: 1.25px #b2b2b2;
+   -webkit-text-stroke: 1px #b2b2b2;
  }
 
  .splash__bot {
@@ -37,6 +37,7 @@
 
    padding-bottom: 1vh;
    border-bottom: 2px solid #4c0000;
+   font-size: 4vh;
  }
 
   .section--footer {
@@ -56,14 +57,14 @@
 
  .header--about {
    width: 60%;
-   top: 7%;
+   top: 9%;
 
    padding-bottom: 1vh;
    border-bottom: 2px solid white;
  }
 
  .about__top__desc {
-   margin-top: 5em;
+   margin-top: 2em;
  }
 
  .about__bot {
@@ -74,7 +75,7 @@
 
  .icon__detail {
    max-height: 3em;
-   width: 109%;
+   width: 100%;
    font-size: 1.3vh;
  }
 
@@ -82,12 +83,12 @@
  .projects__preview {
    height: 75%;
    flex-direction: column;
-   margin-bottom: .5em;
+   margin-top: 4vh;
  }
 
  .section--large_third {
-   height: 8em;
-   width: 8em;
+   height: 8.5em;
+   width: 8.5em;
  }
 
  .preview--pakky-bird {
@@ -123,6 +124,7 @@
  .overview--button {
    width: 75%;
    padding: .5em .25em;
+   font-size: 1.25vh;
  }
 
  .modal-content {
@@ -150,12 +152,12 @@
 
  /* Experience Section */
  .experiences__preview {
-   height: 70%;
-   flex-direction: column-reverse;
+   height: 73%;
+   flex-direction: column;
    justify-content: space-between;
    align-items: center;
 
-   margin-top: 5vh;
+   margin-top: 9vh;
  }
 
  .section--small_third {
@@ -193,13 +195,16 @@
 
  .contact__desc {
    width: 90%;
-   margin-top: 6vh;
-   margin-bottom: 2.5vh;
+   margin-top: 5.5vh;
+   margin-bottom: 3vh;
+
+   font-size: 2.25vh;
    text-align: center;
+
  }
 
  .contact__top__icons {
-   height: 60%;
+   height: 58%;
    flex-direction: column;
    align-items: center;
    margin-bottom: 1vh;

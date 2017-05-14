@@ -11,10 +11,9 @@
   padding-top: 4vh;
 
   text-align: center;
-  font-size: 2.25vh;
+  font-size: 2vh;
   letter-spacing: 1px;
   line-height: 4vh;
-  /*border: 1px solid blue;*/
 }
 
 .about__bot {
@@ -22,7 +21,7 @@
   width: 93%;
 
   justify-content: space-between;
-  font-size: 2.25vh;
+  font-size: 2vh;
   text-align: center;
 }
 
@@ -37,7 +36,12 @@
 
 .icon__detail {
   min-height: 3em;
-  max-width: 82%;
+  max-width: 75%;
+  font-size: 1.75vh;
+}
+
+.icon--infinitedge {
+  max-width: 60%;
 }
 
 .icon--margin_top {
@@ -69,8 +73,8 @@
 }
 
 .section--large_third {
-  height: 43vh;
-  width: 43vh;
+  height: 42vh;
+  width: 42vh;
 }
 
 .section--large_third:hover {

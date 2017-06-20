@@ -143,13 +143,13 @@ hr::after {
 
 .logo__top {
   background-color: #2e0000;
-  border: 1px solid #b2b2b2;
+  border: 1px solid white;
   border-radius: 50%;
 }
 
 .logo__bot {
   background-color: #4e0000;
-  border: 1px solid #b2b2b2;
+  border: 1px solid white;
   border-radius: 50%;
 }
 

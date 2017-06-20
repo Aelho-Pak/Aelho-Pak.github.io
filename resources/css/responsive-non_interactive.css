@@ -17,12 +17,12 @@
 
  .splash__top {
    margin-bottom: 1vh;
-   -webkit-text-stroke: .5px #b2b2b2;
+   -webkit-text-stroke: .5px white;
  }
 
  .splash__mid {
    font-size: 7vh;
-   -webkit-text-stroke: 1px #b2b2b2;
+   -webkit-text-stroke: 1px white;
  }
 
  .splash__bot {
@@ -217,18 +217,3 @@
  .contact__bot__desc {
    width: 100%;
  }
-
-/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-@media screen and (min-width:425px) and (max-width:768px) {
- /*html { background: orange;}*/
-}
-
-/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-@media (min-width:641px)  {
- /*html { background: blue;}*/
-}
-
-/* tablet, landscape iPad, lo-res laptops ands desktops */
-@media (min-width:961px)  {
- /*html { background: black;}*/
-}

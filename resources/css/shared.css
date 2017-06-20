@@ -130,7 +130,7 @@ hr::after {
 /* Splash and Contact Section */
 
 .links {
-  width: 50%;
+  width: 75%;
   margin: 2vh 0;
 
   justify-content: space-between;
@@ -177,11 +177,6 @@ hr::after {
 .splash__mid {
   font-size: 9vh;
   letter-spacing: -3px;
-}
-
-.splash__bot {
-  width: 85%;
-  justify-content: space-around;
 }
 
 
